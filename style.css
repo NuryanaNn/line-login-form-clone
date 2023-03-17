@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+}
+
+.loginForm{
+    padding: 50px;
+    width: 500px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.loginForm .content h1{
+    color: green;
+    margin-bottom: 50px;
+}
+
+.loginForm input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid  #dee5ec;
+    padding: 5px;
+    outline: none;
+}
+
+.password{
+    margin-top: 30px;
+}
+
+button{
+    width: 100%;
+    cursor: pointer;
+}
+
+.login{
+    background-color: #dee5ec;
+    border: none;
+    padding: 10px;
+    margin: 20px 0 30px 0;
+    color: #fff;
+}
+
+.anotherLogin{
+    position: relative;
+    color: #dee5ec;
+}
+
+.anotherLogin::before{
+    content: '';
+    position: absolute;
+    background-color: #dee5ec;
+    width: 25%;
+    height: 1px;
+    top: 50%;
+    left: 0;
+    border-radius: 50%;
+}
+
+.anotherLogin::after{
+    content: '';
+    position: absolute;
+    background-color: #dee5ec;
+    width: 25%;
+    height: 1px;
+    top: 50%;
+    right: 0;
+    border-radius: 50%;
+}
+
+.qr{
+    background-color: transparent;
+    border: 1px solid gray;
+    padding: 15px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.forget{
+    margin-top: 30px;
+}
+
+.forget a{
+    text-decoration: none;
+    color: blue;
+}
